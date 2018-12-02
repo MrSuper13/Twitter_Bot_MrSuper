@@ -2,6 +2,7 @@ from TwitterAPI import TwitterAPI
 from random import randint
 import time
 import sys
+import shutil
 
 
 def AutoPostPics(nb_pics):
@@ -16,7 +17,7 @@ def AutoPostPics(nb_pics):
 
         #Random post at any time of the journey between 7200 = 2H and 86400 = 24H
         rand = randint(7200, 86400)
-        print(rand)
+        print('pics(' + str(nb_pics) + ').jpg')
 
         #Shell Display
         i = 1
@@ -33,6 +34,9 @@ def AutoPostPics(nb_pics):
 
         #State(200 = ok)
         print(r.status_code)
+        
+        #Move pics in an other directory
+        shutil.move('/home/pi/Desktop/PICS/'+'pics('+str(nb_pics)+').jpg','/home/pi/Desktop/Posted')
 
         #ReCall of the function
         AutoPostPics(nb_pics)
