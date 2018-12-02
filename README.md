@@ -1,6 +1,6 @@
 # Twitter_Bot_MrSuper
 
-OK ! Now i'm gonna explain how i use it for AutoUploadMedia, it's not masteries but i'm working in.
+OK ! Now i'm gonna explain how i use AutoUploadMedia, it's not masteries but i'm working in.
 
 ### How and what he does
 
