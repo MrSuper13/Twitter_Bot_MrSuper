@@ -8,10 +8,10 @@ I use AutoUploadMedia.py on a Raspberry PI to automated my Twitter bot. He just 
 
 ### Installation
 ```shell
-sudo apt install python3
-sudo apt install python3-pip
-sudo pip3 install TwitterAPI
-python3 AutoUploadMedia.py
+$> sudo apt install python3
+$> sudo apt install python3-pip
+$> sudo pip3 install TwitterAPI
+$> python3 AutoUploadMedia.py
 ```
 
 ### Usage
